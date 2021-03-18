@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_PATH: nextjs-blog
+    defaults:
+      run:
+        working-directory: ./nextjs-blog 
 
     steps:
       - name: Checkout
@@ -19,7 +22,8 @@ jobs:
       - name: Install and Build 
         run: 
           npm install
-          npm run build && npm run export
+          npm run build 
+          npm run export
 
       - name: Add .nojekyll
         run: |
@@ -29,4 +33,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy. 
+          folder: nextjs-blog/out # The folder the action should deploy. 
+          CLEAN: true

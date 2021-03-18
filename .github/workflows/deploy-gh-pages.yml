@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_PATH: nextjs-blog
-    defaults:
-      run:
-        working-directory: ./nextjs-blog 
 
     steps:
       - name: Checkout

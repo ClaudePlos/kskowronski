@@ -10,7 +10,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-      BASE_PATH: gh-actions 
+      BASE_PATH: nextjs-blog
 
     steps:
       - name: Checkout

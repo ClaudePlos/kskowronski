@@ -19,8 +19,9 @@ jobs:
       - name: Install and Build 
         run: 
           npm install
-          npm run build
           npm run export
+          npm run build
+          
 
       # - name: Add .nojekyll
       #   run: |

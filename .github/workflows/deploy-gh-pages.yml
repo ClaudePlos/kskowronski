@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -18,10 +19,10 @@ jobs:
       - name: Install and Build 
         run: 
           npm install
-          npm rum build && npm run export 
+          npm run build && npm run export
 
       - name: Add .nojekyll
-        run: | 
+        run: |
           touch out/.nojekyll
 
       - name: Deploy

@@ -24,3 +24,6 @@ jobs:
           BRANCH: gh-pages
           FOLDER: out
           CLEAN: true
+          ACTIONS_STEP_DEBUG: true
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'  

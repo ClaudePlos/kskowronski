@@ -5,61 +5,64 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Read{' '}
+          Blog{' '}
           <Link href="/posts/first-post">
-            <a>this page!</a>
+            <a>Klaudiusz Skowronski</a>
           </Link>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Posts: <code>clik if you want</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/ClaudePlos" target="_blank" className="card">
+            <h3>AWS &rarr;</h3>
+            <p>Fast generate code to AWS. TODO</p>
+            <p>2021-04-21</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">
+            <h3>NLP &rarr;</h3>
+            <p>How bulid AI code and develop.</p>
+            <p>2021-04-20</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://github.com/ClaudePlos/pattern_ractive_dev" target="_blank" className="card">
+            <h3>Reactive in java &rarr;</h3>
+            <p>How write reactive code in java!</p>
+            <p>2021-04-19</p>
           </a>
 
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="https://github.com/ClaudePlos/rusic" target="_blank" className="card">
+            <h3>Rust language &rarr;</h3>
+            <p>Fast project in RUST language.</p>
+            <p>2021-04-15</p>
           </a>
+
+          <a href="https://github.com/ClaudePlos" target="_blank" className="card">
+            <h3>My github &rarr;</h3>
+            <p>See my project.</p>
+            <p>2021-03-19</p>
+          </a>
+
+         
         </div>
       </main>
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://cash.rekeep.pl"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by{' '}k.skowronski
         </a>
       </footer>
 
@@ -120,7 +123,7 @@ export default function Home() {
         .title {
           margin: 0;
           line-height: 1.15;
-          font-size: 4rem;
+          font-size: 3rem;
         }
 
         .title,

@@ -41,6 +41,11 @@ export default function Home() {
             <p>Obroty i salda wielofirmowo. Kopiowanie kont pomiędzy spółkam. Umożliwia dostęp przez komputer, tablet, smartphone.</p>
           </a>
 
+          <a href="/kskowronski/posts/agencje" className="card">
+            <h3>Grafiki - Agencje pracy &rarr;</h3>
+            <p>Aplikacja integrująca się z systemem ERP i prezentująca dane pracownicze wybranym agencjom pracy.</p>
+          </a>
+
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">
             <h3>NLP &rarr;</h3>
             <p>How bulid AI code and develop.</p>

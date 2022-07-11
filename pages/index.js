@@ -35,6 +35,12 @@ export default function Home() {
             <p>Możliwość wprowadzania wielu kas. Funkcjonalna, prosta i wygodna w użyciu aplikacja. Prosty i łatwy w obsłudze.</p>
           </a>
 
+          <a href="/kskowronski/posts/ksiega-glowna" className="card">
+            <h3>Księga Główna &rarr;</h3>
+            <p>Aplikacja Księga główna służy do definiowania rekordów finansowych dla firmy i zarządzania nimi. Księga główna to rejestr zapisów debetowych i kredytowych. Te wpisy są sklasyfikowane przy użyciu kont wymienionych w planie kont.</p>
+            <p>Obroty i salda wielofirmowo. Kopiowanie kont pomiędzy spółkam. Umożliwia dostęp przez komputer, tablet, smartphone.</p>
+          </a>
+
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">
             <h3>NLP &rarr;</h3>
             <p>How bulid AI code and develop.</p>

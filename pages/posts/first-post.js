@@ -4,8 +4,9 @@ export default function FirstPost() {
     return (
         <>
         <div className="container">
-          <h1>Info about me:</h1>
+          <h1>Kontakt:</h1>
           <h1>mail: skowronki.klaudiusz@gmail.com</h1>
+          <h1>phone: 607 039 259</h1>
           <h2>
             <Link href="/">
               <a>Back to main page</a>

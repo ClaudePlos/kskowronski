@@ -29,6 +29,12 @@ export default function Home() {
             <p>Głównym zadaniem jest ułatwienie czynności związanych z zarządzaniem procesami HR w organizacji.</p>
           </a>
 
+          <a href="/kskowronski/posts/raporty-kasowe" className="card">
+            <h3>Raporty Kasowe &rarr;</h3>
+            <p>Program prowadzi ewidencję dokumentów kasowych KP/KW i drukuje raport kasowy.</p>
+            <p>Możliwość wprowadzania wielu kas. Funkcjonalna, prosta i wygodna w użyciu aplikacja.</p>
+          </a>
+
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">
             <h3>NLP &rarr;</h3>
             <p>How bulid AI code and develop.</p>

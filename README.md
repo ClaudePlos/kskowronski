@@ -5,3 +5,6 @@
 3. http://localhost:3000
 
 Pred dev: https://claudeplos.github.io/kskowronski/
+
+Deployment:
+1. After commit to github wait a couple minutes 

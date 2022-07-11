@@ -6,7 +6,7 @@ export default function PortalPracowniczy() {
         <div className="container">
           <h1>Portal Pracowniczy</h1>
           <h1>1. Strona Głównym</h1>
-          <img src="/images/main_page.png" width="531" height="300"></img>
+          <img src="/kskowronski/images/main_page.png" width="531" height="300"></img>
           <h2>
             <Link href="/">
               <a>Powrót do strony głównej</a>

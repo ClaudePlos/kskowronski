@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="grid">
 
-          <a href="/posts/portal-pracowniczy" className="card">
+          <a href="/kskowronski/posts/portal-pracowniczy" className="card">
             <h3>Portal Pracowniczy &rarr;</h3>
             <p>Portal Pracowniczy jest dedykowany dla każdej organizacji i jej pracowników, niezależnie od stanowiska w strukturze.</p>
             <p>Głównym zadaniem jest ułatwienie czynności związanych z zarządzaniem procesami HR w organizacji.</p>

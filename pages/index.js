@@ -44,6 +44,7 @@ export default function Home() {
           <a href="/kskowronski/posts/agencje" className="card">
             <h3>Grafiki - Agencje pracy &rarr;</h3>
             <p>Aplikacja integrująca się z systemem ERP i prezentująca dane pracownicze wybranym agencjom pracy.</p>
+            <p>Możliwość drukowania zestawień, raportów. Z aplikacji można korzystać również z tabletów lub poprzez smartphone.</p>
           </a>
 
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">

@@ -23,7 +23,7 @@ export default function FirstPost() {
               justify-content: center;
               align-items: center;
             }
-            
+
             .card {
               margin: 1rem;
               flex-basis: 45%;
@@ -34,6 +34,7 @@ export default function FirstPost() {
               border: 1px solid #eaeaea;
               border-radius: 10px;
               transition: color 0.15s ease, border-color 0.15s ease;
+              width: auto
             }
         `}</style>
         <style jsx global>{`

@@ -6,7 +6,7 @@ export default function FirstPost() {
         <div className="container">
           <div className="card">
             <h1>Kontakt:</h1>
-            <h3>mail: skowronki.klaudiusz@gmail.com</h3>
+            <h3><a href = "mailto:skowronki.klaudiusz@gmail.com?subject = Feedback&body = Message">mail: skowronki.klaudiusz@gmail.com</a></h3>
             <h3><a href="tel:607-039-259">phone: 607 039 259</a></h3>
           </div>
           <h2>

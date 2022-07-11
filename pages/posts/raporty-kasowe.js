@@ -5,7 +5,7 @@ export default function RaportyKasowe() {
         <>
         <div className="container">
           <h1>Raporty Kasowe</h1>
-          <img src="/kskowronski/images/cashreport/cashreport01.png" width="1708" height="800"></img>
+          <img src="/kskowronski/images/cashreport/cashreport01.png" width="100%" height="auto"></img>
           <h2>
             <Link href="/">
               <a>Powrót do strony głównej</a>

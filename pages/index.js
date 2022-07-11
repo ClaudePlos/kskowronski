@@ -5,27 +5,28 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Blog</title>
+        <title>Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Blog{' '}
+        Portfolio{' '}
           <Link href="/posts/first-post">
             <a>Klaudiusz Skowronski</a>
           </Link>
         </h1>
 
         <p className="description">
-          Posts: <code>clik if you want</code>
+          Posty: <code>kilknij w poniższy temat</code>
         </p>
 
         <div className="grid">
-          <a href="https://github.com/ClaudePlos" target="_blank" className="card">
-            <h3>AWS &rarr;</h3>
-            <p>Fast generate code to AWS. TODO</p>
-            <p>2021-04-21</p>
+
+          <a href="/posts/portal-pracowniczy" className="card">
+            <h3>Portal Pracowniczy &rarr;</h3>
+            <p>Portal Pracowniczy jest dedykowany dla każdej organizacji i jej pracowników, niezależnie od stanowiska w strukturze.</p>
+            <p>Głównym zadaniem jest ułatwienie czynności związanych z zarządzaniem procesami HR w organizacji.</p>
           </a>
 
           <a href="https://dataworkshop.eu/free-webinar?utm_source=youtube&utm_medium=description&utm_campaign=nlp2&utm_term=channel&utm_content=dataworkshop#joinwebinar" target="_blank" className="card">

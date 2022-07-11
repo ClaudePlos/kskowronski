@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Portfolio</title>
+        <title>Anfix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-        Portfolio{' '}
+        Anfix{' '}
           <Link href="/posts/first-post">
             <a>Klaudiusz Skowronski</a>
           </Link>
